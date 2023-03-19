@@ -672,7 +672,9 @@ header {
 }
 @media (max-width: 767px) {
   .logo {
-    width: 150px;
+    width: calc(100% - 146px);
+    max-width: 200px;
+    margin: 0 10px;
   }
 }
 
